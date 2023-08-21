@@ -1,0 +1,71 @@
+.people-container{
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+.people-container h1{
+    margin-bottom: 30px;
+    color: rgba(4, 46, 23, 1);
+    cursor: pointer;
+}
+.people-container .people-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 15px 0;
+    box-shadow: 1px 1px 4px  rgba(4, 46, 23, 1);
+    color: rgba(4, 46, 23, 1);
+}
+
+.dept-chair{
+    margin-bottom: 90px;
+}
+
+
+.memo{
+    padding: 5px;
+}
+.memo h1{
+    color: rgba(4, 46, 23, 1);
+    margin-bottom: 50px;
+}
+.memo h1{
+    cursor: pointer;
+}
+.memo .memo-container p{
+    line-height: 30px;
+}
+.memo h2{
+    margin-top: 40px;
+    color: rgba(4, 46, 23, 1);
+}
+.memo .date{
+    margin-bottom: 20px;
+}
+.memo-notes{
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid grey;
+}
+.memo-notes .memo-img{
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+    padding-top: 20px;
+    
+}
+
+.memo-notes .memo-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.texts{
+    width: 500px;
+   
+    
+}
+.texts p{
+    line-height: 30px;
+}

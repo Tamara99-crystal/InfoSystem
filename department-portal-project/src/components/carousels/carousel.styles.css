@@ -1,0 +1,42 @@
+/* CarouselStyles.css */
+.CarouselContainer {
+    max-width: 800px;
+    width: 1000px; /* Adjust the width as needed */
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px grey;
+  }
+/* Style the entire carousel container */
+.carousel {
+    max-width: 800px; /* Set the desired maximum width */
+    margin: 0 auto;
+    width: 100%; /* Center the carousel */
+  }
+  
+  /* Style the individual carousel items (slides) */
+  .carousel .slide {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; 
+    
+  }
+  .slide .news-header{
+    background-color: rgba(4, 46, 23, 1);
+    box-shadow: 1px 1px 1px black;
+    width: 100%;
+    color: white;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  /* Style the images within the carousel */
+  .carousel .slide img{
+    max-width: 100%; /* Ensure images fit within their container */
+    max-height: 300px; /* Set the maximum image height */
+    width: 100%; /* Make sure the image occupies the full width of its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: cover; 
+    border: 1px solid blue;
+  }
+  

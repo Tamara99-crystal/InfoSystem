@@ -1,0 +1,75 @@
+.home-container{
+    background-color: white;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.home-link-buttons{
+    max-width: 800px;
+    margin: 50px auto;
+}
+.home-link-buttons h2{
+    color: rgba(4, 46, 23, 1);
+}
+.home-link-buttons div{
+    width: 370px;
+    padding: 10px;
+    background-color: rgba(4, 46, 23, 1);
+    color: white;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px solid black;
+    font-size: 24px;
+    font-weight: 600;
+}
+.latest-news{
+    max-width: 800px;
+    margin: 20px auto;
+}
+.latest-news h1{
+    color: rgba(4, 46, 23, 1);
+}
+.image-news-display{
+    display: flex;
+    justify-content: space-between;
+}
+.images-container{
+    width: 300px;
+    height: 250px;
+    padding: 3px;
+    border: 1px solid grey;
+    color: grey;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.images-container img{
+    max-width: 100%; /* Ensure images fit within their container */
+    max-height: 300px; 
+    height: 180px;
+    
+    width: 100%;
+    
+}
+.images-container p{
+    font-size: 12px;
+}
+.more-link{
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: end;
+    color: grey;
+}
+
+.upcoming-events{
+    max-width: 800px;
+    margin: 20px auto;
+    
+}
+.upcoming-events h1{
+    color: rgba(4, 46, 23, 1);
+}
+
+.upcoming-events p{
+    width: 100%;
+    text-align: end;
+    color: grey;
+}

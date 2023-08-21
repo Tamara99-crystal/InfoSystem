@@ -1,0 +1,103 @@
+.about-container{
+    padding: 50px 400px;
+    color: black;
+    background-color: white;
+}
+.about-container .welcome-note{
+    font-size: 50px;
+    color: rgba(4, 46, 23, 1);
+    margin-bottom: 10px;
+}
+.about-container .quote-note{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.about-container p{
+    margin-bottom: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.about-container .undergraduate-program{
+    color: rgba(4, 46, 23, 1);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about-container ol{
+    margin-bottom: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 0 40px;
+}
+
+.about-container .admission-req{
+    font-size: 35px;
+    color: rgba(4, 46, 23, 1);
+    margin-bottom: 10px;
+}
+
+.about-container ul{
+    margin-bottom: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 0 40px;
+}
+
+.about-link{
+    color: aquamarine;
+}
+
+.group-link{
+    color: green;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 1400px){
+    .about-container{
+        border: 1px solid red;
+        padding: 5px 10px;
+        width: 100%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 700px){
+    
+}
+
+@media screen and (max-width: 550px){
+    .about-container{
+        border: 1px solid blue;
+        padding: 5px 10px;
+        width: 100%;
+    }
+    .about-container .welcome-note{
+        font-size: 25px;
+        color: rgba(4, 46, 23, 1);
+        margin-bottom: 10px;
+    }
+    .about-container .quote-note{
+        font-size: 20px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .about-container p{
+        margin-bottom: 15px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .about-container ol{
+        margin-bottom: 25px;
+        font-weight: 500;
+        line-height: 30px;
+        padding: 0 20px;
+    }
+    .about-container ul{
+        margin-bottom: 25px;
+        font-weight: 500;
+        line-height: 30px;
+        padding: 0 20px;
+    }
+}
